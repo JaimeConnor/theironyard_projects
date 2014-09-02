@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08143C8819B5F96A003FA62E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08143C8719B5F96A003FA62E /* AppDelegate.swift */; };
+		08143C8A19B5F96A003FA62E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08143C8919B5F96A003FA62E /* ViewController.swift */; };
+		08143C8D19B5F96A003FA62E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08143C8B19B5F96A003FA62E /* Main.storyboard */; };
+		08143C8F19B5F96A003FA62E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08143C8E19B5F96A003FA62E /* Images.xcassets */; };
+		08143C9B19B5F96A003FA62E /* Rails_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08143C9A19B5F96A003FA62E /* Rails_AppTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08143C9519B5F96A003FA62E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08143C7A19B5F969003FA62E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08143C8119B5F96A003FA62E;
+			remoteInfo = "Rails App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08143C8219B5F96A003FA62E /* Rails App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rails App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08143C8619B5F96A003FA62E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08143C8719B5F96A003FA62E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		08143C8919B5F96A003FA62E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		08143C8C19B5F96A003FA62E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		08143C8E19B5F96A003FA62E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		08143C9419B5F96A003FA62E /* Rails AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rails AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08143C9919B5F96A003FA62E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08143C9A19B5F96A003FA62E /* Rails_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rails_AppTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08143C7F19B5F96A003FA62E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08143C9119B5F96A003FA62E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08143C7919B5F969003FA62E = {
+			isa = PBXGroup;
+			children = (
+				08143C8419B5F96A003FA62E /* Rails App */,
+				08143C9719B5F96A003FA62E /* Rails AppTests */,
+				08143C8319B5F96A003FA62E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		08143C8319B5F96A003FA62E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08143C8219B5F96A003FA62E /* Rails App.app */,
+				08143C9419B5F96A003FA62E /* Rails AppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08143C8419B5F96A003FA62E /* Rails App */ = {
+			isa = PBXGroup;
+			children = (
+				08143C8719B5F96A003FA62E /* AppDelegate.swift */,
+				08143C8919B5F96A003FA62E /* ViewController.swift */,
+				08143C8B19B5F96A003FA62E /* Main.storyboard */,
+				08143C8E19B5F96A003FA62E /* Images.xcassets */,
+				08143C8519B5F96A003FA62E /* Supporting Files */,
+			);
+			path = "Rails App";
+			sourceTree = "<group>";
+		};
+		08143C8519B5F96A003FA62E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				08143C8619B5F96A003FA62E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		08143C9719B5F96A003FA62E /* Rails AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				08143C9A19B5F96A003FA62E /* Rails_AppTests.swift */,
+				08143C9819B5F96A003FA62E /* Supporting Files */,
+			);
+			path = "Rails AppTests";
+			sourceTree = "<group>";
+		};
+		08143C9819B5F96A003FA62E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				08143C9919B5F96A003FA62E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08143C8119B5F96A003FA62E /* Rails App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08143C9E19B5F96A003FA62E /* Build configuration list for PBXNativeTarget "Rails App" */;
+			buildPhases = (
+				08143C7E19B5F96A003FA62E /* Sources */,
+				08143C7F19B5F96A003FA62E /* Frameworks */,
+				08143C8019B5F96A003FA62E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rails App";
+			productName = "Rails App";
+			productReference = 08143C8219B5F96A003FA62E /* Rails App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		08143C9319B5F96A003FA62E /* Rails AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08143CA119B5F96A003FA62E /* Build configuration list for PBXNativeTarget "Rails AppTests" */;
+			buildPhases = (
+				08143C9019B5F96A003FA62E /* Sources */,
+				08143C9119B5F96A003FA62E /* Frameworks */,
+				08143C9219B5F96A003FA62E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08143C9619B5F96A003FA62E /* PBXTargetDependency */,
+			);
+			name = "Rails AppTests";
+			productName = "Rails AppTests";
+			productReference = 08143C9419B5F96A003FA62E /* Rails AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08143C7A19B5F969003FA62E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Jaime Connor";
+				TargetAttributes = {
+					08143C8119B5F96A003FA62E = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					08143C9319B5F96A003FA62E = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 08143C8119B5F96A003FA62E;
+					};
+				};
+			};
+			buildConfigurationList = 08143C7D19B5F969003FA62E /* Build configuration list for PBXProject "Rails App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 08143C7919B5F969003FA62E;
+			productRefGroup = 08143C8319B5F96A003FA62E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08143C8119B5F96A003FA62E /* Rails App */,
+				08143C9319B5F96A003FA62E /* Rails AppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08143C8019B5F96A003FA62E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08143C8D19B5F96A003FA62E /* Main.storyboard in Resources */,
+				08143C8F19B5F96A003FA62E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08143C9219B5F96A003FA62E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08143C7E19B5F96A003FA62E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08143C8A19B5F96A003FA62E /* ViewController.swift in Sources */,
+				08143C8819B5F96A003FA62E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08143C9019B5F96A003FA62E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08143C9B19B5F96A003FA62E /* Rails_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08143C9619B5F96A003FA62E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08143C8119B5F96A003FA62E /* Rails App */;
+			targetProxy = 08143C9519B5F96A003FA62E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		08143C8B19B5F96A003FA62E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08143C8C19B5F96A003FA62E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		08143C9C19B5F96A003FA62E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		08143C9D19B5F96A003FA62E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08143C9F19B5F96A003FA62E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "Rails App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		08143CA019B5F96A003FA62E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "Rails App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		08143CA219B5F96A003FA62E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Rails AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rails App.app/Rails App";
+			};
+			name = Debug;
+		};
+		08143CA319B5F96A003FA62E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Rails AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rails App.app/Rails App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08143C7D19B5F969003FA62E /* Build configuration list for PBXProject "Rails App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08143C9C19B5F96A003FA62E /* Debug */,
+				08143C9D19B5F96A003FA62E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08143C9E19B5F96A003FA62E /* Build configuration list for PBXNativeTarget "Rails App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08143C9F19B5F96A003FA62E /* Debug */,
+				08143CA019B5F96A003FA62E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		08143CA119B5F96A003FA62E /* Build configuration list for PBXNativeTarget "Rails AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08143CA219B5F96A003FA62E /* Debug */,
+				08143CA319B5F96A003FA62E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08143C7A19B5F969003FA62E /* Project object */;
+}
